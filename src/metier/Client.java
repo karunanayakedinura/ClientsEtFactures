@@ -21,7 +21,7 @@ public class Client
 	
 	public String getNom()
 	{
-		return null;
+		return nom;
 	}
 	
 	/**
