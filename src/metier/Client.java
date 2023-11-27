@@ -5,7 +5,8 @@ import java.util.List;
 
 public class Client
 {
-	private Client nom;
+	private String nom;
+	private Facture montant;
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
