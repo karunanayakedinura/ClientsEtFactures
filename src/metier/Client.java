@@ -54,7 +54,7 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return null;
+		return new Facture(this.montant);
 	}
 	
 	/**
