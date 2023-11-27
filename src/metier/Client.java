@@ -12,6 +12,7 @@ public class Client
 	
 	public Client(String nom)
 	{
+		this.nom = nom;
 	}
 
 	/**
@@ -31,6 +32,7 @@ public class Client
 	
 	public void setNom(String nom)
 	{
+		this.nom = nom;
 	}
 	
 	/**
@@ -41,7 +43,8 @@ public class Client
 	
 	public Facture createFacture(int montant)
 	{
-		return null;
+		this.montant = montant; 
+		return montant;
 	}
 	
 	/**
