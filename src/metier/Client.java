@@ -45,8 +45,7 @@ public class Client
 	
 	public Facture createFacture(int montant)
 	{
-		this.montant = montant; 
-		return montant;
+		return null;
 	}
 	
 	/**
@@ -56,7 +55,7 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return new Facture(this.montant);
+		return null;
 	}
 	
 	/**
