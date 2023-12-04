@@ -42,7 +42,7 @@ public class Client
 	 * @return la facture créée.
 	 */
 	
-	public Facture createFacture(montant)
+	public Facture createFacture(int montant)
 	{
 		this.montant = montant;
 		return montant;
