@@ -6,7 +6,7 @@ import java.util.List;
 public class Client
 {
 	String nom;
-	int montant;
+	Facture montant;
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
@@ -46,7 +46,7 @@ public class Client
 	public Facture createFacture(int montant)
 	{
 		this.montant = montant;
-		return Facture(montant);
+		return montant;
 	}
 	
 	/**
